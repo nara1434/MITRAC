@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/id1"
+                android:hint="id:"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+            <!-- Question -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="50dp"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:textStyle="normal"
+                android:text="Do you sometimes forget to take your medication?"
+                android:textColor="@color/black" />
+
+            <!-- First Answer TextView -->
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="18dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+            <!-- Second Answer TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="50dp"
+                    android:layout_weight="1"
+                    android:textSize="14dp"
+                    android:textStyle="normal"
+                    android:text="People sometimes miss taking their medication for reasons other than forgetting. Over the past 2 weeks there any days when you did not take your medication? "
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/q2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textSize="18dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <!-- Question -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="50dp"
+                    android:layout_weight="1"
+                    android:textSize="14dp"
+                    android:textStyle="normal"
+                    android:text="Have you ever cut back or stopped taking your medication without telling your doctor because you felt worse when you took it?"
+                    android:textColor="@color/black"/>
+
+                <!-- First Answer TextView -->
+                <TextView
+                    android:id="@+id/q3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textSize="18dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <!-- Question -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="50dp"
+                    android:layout_weight="1"
+                    android:textSize="14dp"
+                    android:textStyle="normal"
+                    android:text="When you travel or leave home, do you sometimes forget to bring your medication?"
+                    android:textColor="@color/black"/>
+
+                <!-- First Answer TextView -->
+                <TextView
+                    android:id="@+id/q4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textSize="18dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Question -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="50dp"
+                    android:layout_weight="1"
+                    android:textSize="14dp"
+                    android:textStyle="normal"
+                    android:text="Did you take all your medication yesterday?"
+                    android:textColor="@color/black"/>
+
+                <!-- First Answer TextView -->
+                <TextView
+                    android:id="@+id/q5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textSize="18dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <!-- Question -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="50dp"
+                    android:layout_weight="1"
+                    android:textSize="14dp"
+                    android:textStyle="normal"
+                    android:text="When you feel like your symptoms are under control, do you sometimes stop taking your medication?"
+                    android:textColor="@color/black" />
+
+                <!-- First Answer TextView -->
+                <TextView
+                    android:id="@+id/q6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textSize="18dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <!-- Question -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="50dp"
+                    android:layout_weight="1"
+                    android:textSize="14dp"
+                    android:textStyle="normal"
+                    android:text="Taking medication every day is a real inconvenience for some people.Do you ever feel hassled about sticking to your treatment plan?"
+                    android:textColor="@color/black"/>
+
+                <!-- First Answer TextView -->
+                <TextView
+                    android:id="@+id/q7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textSize="18dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <!-- Question -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="50dp"
+                    android:layout_weight="1"
+                    android:textSize="14dp"
+                    android:textStyle="normal"
+                    android:text="How often do you have difficulty remembering to take all your medication?
+                                  Never/Rarely.....
+      Once in a while.....
+    Sometimes.......
+       Usually.......
+                    All the time....."
+                    android:textColor="@color/black" />
+
+                <!-- First Answer TextView -->
+                <TextView
+                    android:id="@+id/q8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textSize="18dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>

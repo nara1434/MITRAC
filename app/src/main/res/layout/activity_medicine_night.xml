@@ -1,0 +1,87 @@
+<!-- res/layout/activity_morning_medicine_table.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MedicineActivityNight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Medicine Name"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="Dosage"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="Time"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupYesNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <RadioButton
+                android:id="@+id/tr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/fl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:text="NO"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Save"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>

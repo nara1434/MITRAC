@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/figma">
+
+    <TextView
+        android:id="@+id/textFetch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="Hi who are you u dumb ass "
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+</androidx.cardview.widget.CardView>

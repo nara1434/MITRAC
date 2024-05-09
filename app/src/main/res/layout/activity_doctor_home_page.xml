@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".DoctorHomePage"
+    android:background="#FEFAEE">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Doctor"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+        <ImageButton
+            android:id="@+id/bell"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="90dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="image"
+            android:src="@drawable/bell"/>
+        <ImageButton
+            android:id="@+id/image1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="image"
+            android:src="@drawable/femaledoctorpic"/>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="30dp"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/image"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="25dp"
+                    android:backgroundTint="@color/white"
+                    android:contentDescription="image"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/add_patient"/>
+                <ImageButton
+                    android:id="@+id/image2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="130dp"
+                    android:backgroundTint="@color/white"
+                    android:contentDescription="image"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/reasons" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Patient"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Reasons"
+                    android:layout_marginLeft="130dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/image3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="25dp"
+                    android:backgroundTint="@color/white"
+                    android:contentDescription="image"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/videos" />
+
+                <ImageButton
+                    android:id="@+id/image4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="130dp"
+                    android:backgroundTint="@color/white"
+                    android:contentDescription="image"
+                    app:srcCompat="@drawable/medicen1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="Suggested Videos"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:text="Medicine Timings"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <ImageButton
+                    android:id="@+id/image5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="25dp"
+                    android:backgroundTint="@color/white"
+                    android:contentDescription="image"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/appointment" />
+                <ImageButton
+                    android:id="@+id/answers"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="130dp"
+                    android:backgroundTint="@color/white"
+                    android:contentDescription="image"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/resultans"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="View Appointments"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="View Answers"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recently Added Patients"
+            android:textStyle="bold"/>
+        <Button
+
+            android:layout_width="wrap_content"
+            android:id="@+id/see"
+            android:layout_height="wrap_content"
+            android:text="See All ->"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="90dp"/>
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="30dp"
+        android:layout_gravity="center">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:clipToPadding="false"
+                android:padding="16dp"/>  
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

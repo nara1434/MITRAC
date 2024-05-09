@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="relations_array">Select Relationship</string>
+    <string-array name="relations_array">
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Uncle</item>
+        <item>Aunt</item>
+        <item>Guardian</item>
+    </string-array>
+
+</resources>

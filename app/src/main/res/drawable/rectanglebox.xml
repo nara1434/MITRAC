@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set the background color of the rectangle -->
+    <solid android:color="#FFFFFF"/> <!-- White background, you can change it -->
+
+    <!-- Set the properties for the border -->
+    <stroke
+        android:width="2dp"
+        android:color="#000000"/>
+
+    <!-- Optional: Add some padding inside the rectangle -->
+    <padding
+        android:left="5dp"
+        android:top="5dp"
+        android:right="5dp"
+        android:bottom="5dp" />
+
+    <!-- Optional: Add rounded corners if desired -->
+    <corners android:radius="10dp"/>
+</shape>

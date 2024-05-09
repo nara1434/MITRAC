@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".status">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/topborderradius"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acceptance status"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/nl_btn1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="PENDING"
+                android:backgroundTint="#85A0E6"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/nl_btn2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="APPROVED"
+               android:backgroundTint="@color/figma"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="10dp"
+                />
+        </FrameLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/li1"
+        android:layout_width="400dp"
+        android:layout_height="639dp"
+
+
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="0dp"
+        >
+
+
+    </ListView>
+
+
+
+</RelativeLayout>
